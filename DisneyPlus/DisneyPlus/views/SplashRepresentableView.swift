@@ -9,7 +9,7 @@ import SwiftUI
 import SnapKit
 import SwiftyGif
 
-final class SplashView: UIViewRepresentable {
+final class SplashRepresentableView: UIViewRepresentable {
     
     private let gifName = "disneyPlusAnimated.gif"
     
