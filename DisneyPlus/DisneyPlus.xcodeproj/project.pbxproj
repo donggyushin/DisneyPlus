@@ -11,6 +11,7 @@
 		70CE20A828EAF70100F5632D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE20A728EAF70100F5632D /* ContentView.swift */; };
 		70CE20AA28EAF70200F5632D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CE20A928EAF70200F5632D /* Assets.xcassets */; };
 		70CE20AD28EAF70200F5632D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CE20AC28EAF70200F5632D /* Preview Assets.xcassets */; };
+		70CE20BB28EAF99300F5632D /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 70CE20BA28EAF99300F5632D /* SwiftyGif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CE20BB28EAF99300F5632D /* SwiftyGif in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +53,12 @@
 		70CE20A428EAF70100F5632D /* DisneyPlus */ = {
 			isa = PBXGroup;
 			children = (
+				70CE20B828EAF8C100F5632D /* models */,
+				70CE20B728EAF8BE00F5632D /* utils */,
+				70CE20B628EAF8B600F5632D /* views */,
+				70CE20B528EAF8B300F5632D /* components */,
+				70CE20B428EAF8AE00F5632D /* routers */,
+				70CE20B328EAF8A800F5632D /* gif */,
 				70CE20A528EAF70100F5632D /* DisneyPlusApp.swift */,
 				70CE20A728EAF70100F5632D /* ContentView.swift */,
 				70CE20A928EAF70200F5632D /* Assets.xcassets */,
@@ -65,6 +73,48 @@
 				70CE20AC28EAF70200F5632D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70CE20B328EAF8A800F5632D /* gif */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		70CE20B428EAF8AE00F5632D /* routers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = routers;
+			sourceTree = "<group>";
+		};
+		70CE20B528EAF8B300F5632D /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		70CE20B628EAF8B600F5632D /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		70CE20B728EAF8BE00F5632D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		70CE20B828EAF8C100F5632D /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +133,9 @@
 			dependencies = (
 			);
 			name = DisneyPlus;
+			packageProductDependencies = (
+				70CE20BA28EAF99300F5632D /* SwiftyGif */,
+			);
 			productName = DisneyPlus;
 			productReference = 70CE20A228EAF70100F5632D /* DisneyPlus.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 70CE209928EAF70100F5632D;
+			packageReferences = (
+				70CE20B928EAF99300F5632D /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
 			productRefGroup = 70CE20A328EAF70100F5632D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +395,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70CE20B928EAF99300F5632D /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70CE20BA28EAF99300F5632D /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70CE20B928EAF99300F5632D /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 70CE209A28EAF70100F5632D /* Project object */;
 }
