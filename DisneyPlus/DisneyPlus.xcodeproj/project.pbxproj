@@ -51,6 +51,12 @@
 		70CE20A428EAF70100F5632D /* DisneyPlus */ = {
 			isa = PBXGroup;
 			children = (
+				70CE20B828EAF8C100F5632D /* models */,
+				70CE20B728EAF8BE00F5632D /* utils */,
+				70CE20B628EAF8B600F5632D /* views */,
+				70CE20B528EAF8B300F5632D /* components */,
+				70CE20B428EAF8AE00F5632D /* routers */,
+				70CE20B328EAF8A800F5632D /* gif */,
 				70CE20A528EAF70100F5632D /* DisneyPlusApp.swift */,
 				70CE20A728EAF70100F5632D /* ContentView.swift */,
 				70CE20A928EAF70200F5632D /* Assets.xcassets */,
@@ -65,6 +71,48 @@
 				70CE20AC28EAF70200F5632D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70CE20B328EAF8A800F5632D /* gif */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		70CE20B428EAF8AE00F5632D /* routers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = routers;
+			sourceTree = "<group>";
+		};
+		70CE20B528EAF8B300F5632D /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		70CE20B628EAF8B600F5632D /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		70CE20B728EAF8BE00F5632D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		70CE20B828EAF8C100F5632D /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
