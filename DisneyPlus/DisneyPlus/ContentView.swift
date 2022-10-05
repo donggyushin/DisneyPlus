@@ -48,3 +48,9 @@ struct ContentView: View {
         .background(Color.black)
     }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(tabViewRouter: TabViewRouter())
+    }
+}
