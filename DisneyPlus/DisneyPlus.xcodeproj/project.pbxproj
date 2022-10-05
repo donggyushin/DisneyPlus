@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7013740328EDCC86001CD55E /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013740228EDCC86001CD55E /* TabViewRouter.swift */; };
+		7013740528EDCDE1001CD55E /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013740428EDCDE1001CD55E /* TabBarIcon.swift */; };
 		702C92BE28EAFABB00EC7E1E /* disneyPlusAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 702C92BD28EAFABB00EC7E1E /* disneyPlusAnimated.gif */; };
 		702C92C128EAFCE900EC7E1E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 702C92C028EAFCE900EC7E1E /* SnapKit */; };
 		702C92C328EAFD0000EC7E1E /* SplashRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C92C228EAFD0000EC7E1E /* SplashRepresentableView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		7013740228EDCC86001CD55E /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
+		7013740428EDCDE1001CD55E /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
 		702C92BD28EAFABB00EC7E1E /* disneyPlusAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = disneyPlusAnimated.gif; sourceTree = "<group>"; };
 		702C92C228EAFD0000EC7E1E /* SplashRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRepresentableView.swift; sourceTree = "<group>"; };
 		702C92C428EAFEC300EC7E1E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		70CE20B528EAF8B300F5632D /* components */ = {
 			isa = PBXGroup;
 			children = (
+				7013740428EDCDE1001CD55E /* TabBarIcon.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7013740528EDCDE1001CD55E /* TabBarIcon.swift in Sources */,
 				70CE20A828EAF70100F5632D /* ContentView.swift in Sources */,
 				702C92C528EAFEC300EC7E1E /* SplashView.swift in Sources */,
 				70CE20A628EAF70100F5632D /* DisneyPlusApp.swift in Sources */,
