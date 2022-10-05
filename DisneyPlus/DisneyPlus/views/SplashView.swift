@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SplashView: View {
     
+    private let tabViewRouter: TabViewRouter = .init()
+    
     @State private var isActive = false
     
     var body: some View {
@@ -16,7 +18,7 @@ struct SplashView: View {
             Color.black
             VStack {
                 if isActive {
-                    ContentView()
+                    ContentView(tabViewRouter: tabViewRouter)
                 } else {
                     SplashRepresentableView()
                         .frame(width: 300, height: 300)
