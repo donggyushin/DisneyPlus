@@ -20,16 +20,17 @@ struct ContentView: View {
         }
     }
     
+    @ViewBuilder
     private func getTabPage() -> some View {
         switch tabViewRouter.currentPage {
         case .home:
-            return AnyView(HomeView())
+            HomeView()
         case .search:
-            return AnyView(SearchView())
+            SearchView()
         case .downloads:
-            return AnyView(DonwloadsView())
+            DonwloadsView()
         case .profile:
-            return AnyView(ProfileView())
+            ProfileView()
         }
     }
     
