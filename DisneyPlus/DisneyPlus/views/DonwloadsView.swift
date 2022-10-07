@@ -9,7 +9,11 @@ import SwiftUI
 
 struct DonwloadsView: View {
     var body: some View {
-        Text("Donwloads")
+        ZStack {
+            GradientBackgroundView()
+            Text("Downloads")
+                .foregroundColor(.white)
+        }
     }
 }
 
