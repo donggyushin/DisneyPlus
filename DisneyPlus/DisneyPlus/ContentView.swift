@@ -9,6 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
+    let home = HomeView()
+    let search = SearchView()
+    let downloads = DownloadsView()
+    let profile = ProfileView()
+    
     @StateObject var tabViewRouter: TabViewRouter
     
     var body: some View {
@@ -17,6 +22,7 @@ struct ContentView: View {
                 getTabPage()
                 getTabIcons(geo: geo)
             }
+            .edgesIgnoringSafeArea(.all)
         }
     }
     
@@ -24,13 +30,13 @@ struct ContentView: View {
     private func getTabPage() -> some View {
         switch tabViewRouter.currentPage {
         case .home:
-            HomeView()
+            home
         case .search:
-            SearchView()
+            search
         case .downloads:
-            DonwloadsView()
+            downloads
         case .profile:
-            ProfileView()
+            profile
         }
     }
     
@@ -46,7 +52,7 @@ struct ContentView: View {
         }
         .frame(width: geo.size.width, height: 60)
         .padding(.bottom, 20)
-        .background(Color.black)
+        .background(ColorConstants.darkBluishGrayColor.shadow(radius: 2))
     }
 }
 

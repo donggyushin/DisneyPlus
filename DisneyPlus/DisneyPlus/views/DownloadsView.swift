@@ -7,14 +7,18 @@
 
 import SwiftUI
 
-struct DonwloadsView: View {
+struct DownloadsView: View {
     var body: some View {
-        Text("Donwloads")
+        ZStack {
+            GradientBackgroundView()
+            Text("Downloads")
+                .foregroundColor(.white)
+        }
     }
 }
 
 struct DonwloadsView_Previews: PreviewProvider {
     static var previews: some View {
-        DonwloadsView()
+        DownloadsView()
     }
 }
