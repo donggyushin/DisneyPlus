@@ -9,6 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
+    let home = HomeView()
+    let search = SearchView()
+    let downloads = DownloadsView()
+    let profile = ProfileView()
+    
     @StateObject var tabViewRouter: TabViewRouter
     
     var body: some View {
@@ -25,13 +30,13 @@ struct ContentView: View {
     private func getTabPage() -> some View {
         switch tabViewRouter.currentPage {
         case .home:
-            HomeView()
+            home
         case .search:
-            SearchView()
+            search
         case .downloads:
-            DonwloadsView()
+            downloads
         case .profile:
-            ProfileView()
+            profile
         }
     }
     

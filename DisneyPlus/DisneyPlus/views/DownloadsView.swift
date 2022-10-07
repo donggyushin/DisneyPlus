@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DonwloadsView: View {
+struct DownloadsView: View {
     var body: some View {
         ZStack {
             GradientBackgroundView()
@@ -19,6 +19,6 @@ struct DonwloadsView: View {
 
 struct DonwloadsView_Previews: PreviewProvider {
     static var previews: some View {
-        DonwloadsView()
+        DownloadsView()
     }
 }
