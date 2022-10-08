@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7013740328EDCC86001CD55E /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013740228EDCC86001CD55E /* TabViewRouter.swift */; };
+		7013740528EDCDE1001CD55E /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013740428EDCDE1001CD55E /* TabBarIcon.swift */; };
+		7013740728EDCEE4001CD55E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013740628EDCEE4001CD55E /* HomeView.swift */; };
+		7013740928EDCEF4001CD55E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013740828EDCEF4001CD55E /* SearchView.swift */; };
+		7013740B28EDCF05001CD55E /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013740A28EDCF05001CD55E /* DownloadsView.swift */; };
+		7013740D28EDCF1D001CD55E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013740C28EDCF1D001CD55E /* ProfileView.swift */; };
 		702C92BE28EAFABB00EC7E1E /* disneyPlusAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 702C92BD28EAFABB00EC7E1E /* disneyPlusAnimated.gif */; };
 		702C92C128EAFCE900EC7E1E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 702C92C028EAFCE900EC7E1E /* SnapKit */; };
 		702C92C328EAFD0000EC7E1E /* SplashRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C92C228EAFD0000EC7E1E /* SplashRepresentableView.swift */; };
 		702C92C528EAFEC300EC7E1E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C92C428EAFEC300EC7E1E /* SplashView.swift */; };
+		7057360D28F0813F0058A704 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057360C28F0813F0058A704 /* ColorConstants.swift */; };
+		7057360F28F085870058A704 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057360E28F085870058A704 /* Movie.swift */; };
+		7057361128F0879F0058A704 /* MovieSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057361028F0879F0058A704 /* MovieSection.swift */; };
+		7057361328F0889C0058A704 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057361228F0889C0058A704 /* Channel.swift */; };
+		7057361528F088C60058A704 /* SearchCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057361428F088C60058A704 /* SearchCategory.swift */; };
+		7057361728F088F60058A704 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057361628F088F60058A704 /* Profile.swift */; };
+		70BEDE1A28F089B5000D6435 /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BEDE1928F089B5000D6435 /* GradientBackgroundView.swift */; };
 		70CE20A628EAF70100F5632D /* DisneyPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE20A528EAF70100F5632D /* DisneyPlusApp.swift */; };
 		70CE20A828EAF70100F5632D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE20A728EAF70100F5632D /* ContentView.swift */; };
 		70CE20AA28EAF70200F5632D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CE20A928EAF70200F5632D /* Assets.xcassets */; };
@@ -19,9 +32,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7013740228EDCC86001CD55E /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
+		7013740428EDCDE1001CD55E /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		7013740628EDCEE4001CD55E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7013740828EDCEF4001CD55E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		7013740A28EDCF05001CD55E /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		7013740C28EDCF1D001CD55E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		702C92BD28EAFABB00EC7E1E /* disneyPlusAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = disneyPlusAnimated.gif; sourceTree = "<group>"; };
 		702C92C228EAFD0000EC7E1E /* SplashRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRepresentableView.swift; sourceTree = "<group>"; };
 		702C92C428EAFEC300EC7E1E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		7057360C28F0813F0058A704 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		7057360E28F085870058A704 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7057361028F0879F0058A704 /* MovieSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSection.swift; sourceTree = "<group>"; };
+		7057361228F0889C0058A704 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		7057361428F088C60058A704 /* SearchCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategory.swift; sourceTree = "<group>"; };
+		7057361628F088F60058A704 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		70BEDE1928F089B5000D6435 /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
 		70CE20A228EAF70100F5632D /* DisneyPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CE20A528EAF70100F5632D /* DisneyPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlusApp.swift; sourceTree = "<group>"; };
 		70CE20A728EAF70100F5632D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +120,7 @@
 		70CE20B428EAF8AE00F5632D /* routers */ = {
 			isa = PBXGroup;
 			children = (
+				7013740228EDCC86001CD55E /* TabViewRouter.swift */,
 			);
 			path = routers;
 			sourceTree = "<group>";
@@ -101,6 +128,8 @@
 		70CE20B528EAF8B300F5632D /* components */ = {
 			isa = PBXGroup;
 			children = (
+				7013740428EDCDE1001CD55E /* TabBarIcon.swift */,
+				70BEDE1928F089B5000D6435 /* GradientBackgroundView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -110,6 +139,10 @@
 			children = (
 				702C92C228EAFD0000EC7E1E /* SplashRepresentableView.swift */,
 				702C92C428EAFEC300EC7E1E /* SplashView.swift */,
+				7013740628EDCEE4001CD55E /* HomeView.swift */,
+				7013740828EDCEF4001CD55E /* SearchView.swift */,
+				7013740A28EDCF05001CD55E /* DownloadsView.swift */,
+				7013740C28EDCF1D001CD55E /* ProfileView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -117,6 +150,7 @@
 		70CE20B728EAF8BE00F5632D /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				7057360C28F0813F0058A704 /* ColorConstants.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -124,6 +158,11 @@
 		70CE20B828EAF8C100F5632D /* models */ = {
 			isa = PBXGroup;
 			children = (
+				7057360E28F085870058A704 /* Movie.swift */,
+				7057361028F0879F0058A704 /* MovieSection.swift */,
+				7057361228F0889C0058A704 /* Channel.swift */,
+				7057361428F088C60058A704 /* SearchCategory.swift */,
+				7057361628F088F60058A704 /* Profile.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -207,9 +246,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7013740528EDCDE1001CD55E /* TabBarIcon.swift in Sources */,
+				7013740728EDCEE4001CD55E /* HomeView.swift in Sources */,
+				7057360F28F085870058A704 /* Movie.swift in Sources */,
+				7013740D28EDCF1D001CD55E /* ProfileView.swift in Sources */,
 				70CE20A828EAF70100F5632D /* ContentView.swift in Sources */,
+				7057360D28F0813F0058A704 /* ColorConstants.swift in Sources */,
+				7057361128F0879F0058A704 /* MovieSection.swift in Sources */,
+				7057361328F0889C0058A704 /* Channel.swift in Sources */,
+				7057361528F088C60058A704 /* SearchCategory.swift in Sources */,
+				7057361728F088F60058A704 /* Profile.swift in Sources */,
 				702C92C528EAFEC300EC7E1E /* SplashView.swift in Sources */,
+				7013740B28EDCF05001CD55E /* DownloadsView.swift in Sources */,
+				7013740928EDCEF4001CD55E /* SearchView.swift in Sources */,
 				70CE20A628EAF70100F5632D /* DisneyPlusApp.swift in Sources */,
+				7013740328EDCC86001CD55E /* TabViewRouter.swift in Sources */,
+				70BEDE1A28F089B5000D6435 /* GradientBackgroundView.swift in Sources */,
 				702C92C328EAFD0000EC7E1E /* SplashRepresentableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
