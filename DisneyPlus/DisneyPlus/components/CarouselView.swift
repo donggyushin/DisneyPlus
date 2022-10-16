@@ -10,17 +10,17 @@ import SwiftUI
 struct CarouselView: View {
     
     let promos: [Movie] = Movie.promos
+    let geo: GeometryProxy
     @State private var selectedMovie: Movie?
     
     var body: some View {
-        HStack(alignment: .center, spacing: 30) {
+        TabView {
             ForEach(promos) { promo in
                 ZStack(alignment: .bottom) {
                     Image(promo.promoImage)
                         .resizable()
                         .scaledToFit()
                         .cornerRadius(10)
-                    
                     Button {
                         self.selectedMovie = promo
                     } label: {
@@ -33,15 +33,20 @@ struct CarouselView: View {
                     .sheet(item: $selectedMovie) { movie in
                         Text(movie.title)
                     }
-                }.frame(width: 300)
-                    
+                }.frame(width: geo.size.width * 0.9)
             }
-        }
+        }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
     }
 }
 
 struct CarouselView_Previews: PreviewProvider {
     static var previews: some View {
-        CarouselView()
+        GeometryReader { geo in
+            ZStack {
+                GradientBackgroundView()
+                CarouselView(geo: geo)
+            }
+        }
+        
     }
 }

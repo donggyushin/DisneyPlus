@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Movie: Identifiable {
+struct Movie: Identifiable, Hashable {
     let id = UUID()
     var title: String
     var posterImage: String
