@@ -28,6 +28,7 @@
 		7057361528F088C60058A704 /* SearchCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057361428F088C60058A704 /* SearchCategory.swift */; };
 		7057361728F088F60058A704 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057361628F088F60058A704 /* Profile.swift */; };
 		707FEED428F851B600269070 /* ProfilePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FEED328F851B600269070 /* ProfilePic.swift */; };
+		707FEED628F854B100269070 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FEED528F854B100269070 /* CarouselView.swift */; };
 		70BEDE1A28F089B5000D6435 /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BEDE1928F089B5000D6435 /* GradientBackgroundView.swift */; };
 		70CE20A628EAF70100F5632D /* DisneyPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE20A528EAF70100F5632D /* DisneyPlusApp.swift */; };
 		70CE20A828EAF70100F5632D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE20A728EAF70100F5632D /* ContentView.swift */; };
@@ -57,6 +58,7 @@
 		7057361428F088C60058A704 /* SearchCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategory.swift; sourceTree = "<group>"; };
 		7057361628F088F60058A704 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		707FEED328F851B600269070 /* ProfilePic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePic.swift; sourceTree = "<group>"; };
+		707FEED528F854B100269070 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		70BEDE1928F089B5000D6435 /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
 		70CE20A228EAF70100F5632D /* DisneyPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CE20A528EAF70100F5632D /* DisneyPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlusApp.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				702B527628F2D010009A1AA8 /* MovieSectionView.swift */,
 				702B527828F2D369009A1AA8 /* SquareButton.swift */,
 				707FEED328F851B600269070 /* ProfilePic.swift */,
+				707FEED528F854B100269070 /* CarouselView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				7013740328EDCC86001CD55E /* TabViewRouter.swift in Sources */,
 				70BEDE1A28F089B5000D6435 /* GradientBackgroundView.swift in Sources */,
 				702C92C328EAFD0000EC7E1E /* SplashRepresentableView.swift in Sources */,
+				707FEED628F854B100269070 /* CarouselView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
