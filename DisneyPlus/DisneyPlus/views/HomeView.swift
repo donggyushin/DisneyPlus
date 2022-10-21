@@ -9,11 +9,27 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
-            GradientBackgroundView()
-            Text("Home")
-                .foregroundColor(.white)
+        GeometryReader { geo in
+            ZStack {
+                GradientBackgroundView()
+                ScrollView(showsIndicators: false) {
+                    VStack {
+                        LogoHeaderView()
+                            .frame(maxWidth: 100)
+                        CarouselView(geo: geo)
+                            .frame(height: 200)
+                        ChannelView(channels: Channel.allCases)
+                        
+                        ForEach(MovieSection.movieSections) { section in
+                            MovieSectionView(movieSection: section)
+                                .frame(width: geo.size.width)
+                        }
+                        Spacer(minLength: 60)
+                    }
+                }
+            }
         }
+        
     }
 }
 

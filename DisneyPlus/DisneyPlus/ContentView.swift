@@ -22,8 +22,9 @@ struct ContentView: View {
                 getTabPage()
                 getTabIcons(geo: geo)
             }
-            .edgesIgnoringSafeArea(.all)
         }
+        .edgesIgnoringSafeArea(.bottom)
+        .edgesIgnoringSafeArea(.horizontal)
     }
     
     @ViewBuilder

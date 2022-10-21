@@ -11,6 +11,7 @@ struct CarouselView: View {
     
     let promos: [Movie] = Movie.promos
     let geo: GeometryProxy
+    
     @State private var selectedMovie: Movie?
     
     var body: some View {
