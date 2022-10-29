@@ -19,26 +19,21 @@ struct ContentView: View {
     var body: some View {
         GeometryReader { geo in
             VStack(spacing: -10) {
-                getTabPage()
+                ZStack {
+                    home
+                        .opacity(tabViewRouter.currentPage == .home ? 1 : 0)
+                    search
+                        .opacity(tabViewRouter.currentPage == .search ? 1 : 0)
+                    downloads
+                        .opacity(tabViewRouter.currentPage == .downloads ? 1 : 0)
+                    profile
+                        .opacity(tabViewRouter.currentPage == .profile ? 1 : 0)
+                }
                 getTabIcons(geo: geo)
             }
         }
         .edgesIgnoringSafeArea(.bottom)
         .edgesIgnoringSafeArea(.horizontal)
-    }
-    
-    @ViewBuilder
-    private func getTabPage() -> some View {
-        switch tabViewRouter.currentPage {
-        case .home:
-            home
-        case .search:
-            search
-        case .downloads:
-            downloads
-        case .profile:
-            profile
-        }
     }
     
     private func getTabIcons(geo: GeometryProxy) -> some View {
